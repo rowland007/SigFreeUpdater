@@ -1,40 +1,17 @@
-<h1 align="center">Beta Updater for WhatsApp</h1>
+<h1 align="center">SigFree Updater</h1>
 
-<p align="center">
-  <a target="_blank" href="https://travis-ci.org/javiersantos/WhatsAppBetaUpdater"><img src="https://travis-ci.org/javiersantos/WhatsAppBetaUpdater.svg?branch=master"></a>
-  <a target="_blank" href="http://android-arsenal.com/details/3/3047"><img src="https://img.shields.io/badge/Android%20Arsenal-Beta%20Updater%20for%20WhatsApp-blue.svg"></a>
-  <a target="_blank" href="https://www.paypal.me/javiersantos" title="Donate using PayPal"><img src="https://img.shields.io/badge/paypal-donate-yellow.svg" /></a>
-</p>
+[![Build Status](https://travis-ci.org/rowland007/SigFreeUpdater.svg?branch=master)](https://travis-ci.org/rowland007/SigFreeUpdater)
 
-<p align="center"><img src="https://raw.githubusercontent.com/javiersantos/WhatsAppBetaUpdater/master/app/src/main/ic_launcher-web.png" width="100" height="100"></p>
-<p align="center">An app to update to the latest version of WhatsApp for Android. Beta Updater for WhatsApp checks the latest beta version available on whatsapp.com and enables you to install it automatically.</p>
-<p align="center"><a target="_blank" href="https://github.com/javiersantos/WhatsAppBetaUpdater/releases"><img src="https://img.shields.io/github/downloads/javiersantos/WhatsAppBetaUpdater/total.svg"></a></p>
-<p align="center"><a target="_blank" href="https://f-droid.org/repository/browse/?fdid=com.javiersantos.whatsappbetaupdater"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Get_it_on_F-Droid.svg/1024px-Get_it_on_F-Droid.svg.png" height="60"></a></p>
+<p align="center"><img src="https://raw.githubusercontent.com/rowland007/SigFreeUpdater/feature-readme/icon.png" width="100" height="100"></p>
 
-## Why use Beta Updater?
-WhatsApp publishes beta updates on their website before they become available on Google Play. This means that the latest features aren't available on Google Play until several weeks later (like audio calls, backup to Google Drive and new UI changes).
+An app to update to the latest version of Signal Private Messenger for Android. SigFree Updater checks for the latest website distribution build available on [signal.org](https://signal.org/android/apk/) and enables you to install it automatically.
 
-When a user wants to have these beta updates, the regular method is downloading the APK file from the website and installing it manually. Beta Updater does that automatically.
+## Why use SigFree Updater?
+Open Whisper Systems publishes updates on their website when they become available on Google Play. This means that roms that don't use Google Play services don't have access to the Google Play Store to be able to download the APK. When a user wants to have these updates, the regular method is downloading the `Signal-website-release-x.x.x.apk` file from the website and installing it manually. SigFree Updater does that automatically.
 
-## APK Download
-* [Download on GitHub](https://github.com/javiersantos/WhatsAppBetaUpdater/releases) *- Recommended -*
-* [Download on F-Droid](https://f-droid.org/repository/browse/?fdid=com.javiersantos.whatsappbetaupdater)
-* [Download on Aptoide](http://fjaviersantos.store.aptoide.com/app/market/com.javiersantos.whatsappbetaupdater/23/18846195/Beta+Updater+for+WhatsApp)
-
-![Beta Updater for WhatsApp](https://raw.githubusercontent.com/javiersantos/WhatsAppBetaUpdater/master/Screenshots/banner.png)
-
-## Translations
-* English
-* Spanish
-* German
-* Japanese
-* Catalan
-* Dutch
-* Italian
-* Turkish
-* French
-
-If you want to translate the app in your native language please go to [Crowdin's project page](https://crowdin.com/project/beta-updater-whatsapp).
+## Signal APK Download
+* [Download on Google Play](https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms) *- Recommended -*
+* [Download on Signal.org](https://signal.org/android/apk/)
 
 ## Third Party Libraries
 * [Material Dialogs](https://github.com/afollestad/material-dialogs)
@@ -44,8 +21,6 @@ If you want to translate the app in your native language please go to [Crowdin's
 * [Material Preference Library](https://github.com/AndroidDeveloperLB/MaterialPreferenceLibrary)
 
 ## License
-
-    Copyright 2015 Javier Santos
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -61,4 +36,6 @@ If you want to translate the app in your native language please go to [Crowdin's
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 ## Disclaimer
-Beta Updater for WhatsApp app is not sponsored by or affiliated with WhatsApp Inc. WhatsApp Messenger, its name, trademark, and other aspects of the app are trademarked and owned by their respective owners.
+SigFree Updater app is not sponsored by or affiliated with  Open Whisper Systems, Signal Private Messenger, its name, trademark, and other aspects of the app are trademarked and owned by their respective owners.
+
+Google Play and the Google Play logo are trademarks of Google Inc.
