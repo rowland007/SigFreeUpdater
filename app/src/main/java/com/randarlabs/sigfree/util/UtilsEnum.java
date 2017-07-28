@@ -1,4 +1,4 @@
-package com.javiersantos.whatsappbetaupdater.util;
+package com.randarlabs.sigfree.util;
 
 public class UtilsEnum {
 

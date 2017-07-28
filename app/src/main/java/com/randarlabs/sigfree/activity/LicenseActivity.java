@@ -1,8 +1,8 @@
-package com.javiersantos.whatsappbetaupdater.activity;
+package com.randarlabs.sigfree.activity;
 
 import android.os.Bundle;
 
-import com.javiersantos.whatsappbetaupdater.R;
+import com.randarlabs.sigfree.R;
 import com.mikepenz.aboutlibraries.Libs;
 import com.mikepenz.aboutlibraries.LibsBuilder;
 import com.mikepenz.aboutlibraries.ui.LibsActivity;

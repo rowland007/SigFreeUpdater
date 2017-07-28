@@ -1,4 +1,4 @@
-package com.javiersantos.whatsappbetaupdater;
+package com.randarlabs.sigfree;
 
 public class Config {
 

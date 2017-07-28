@@ -1,10 +1,10 @@
-package com.javiersantos.whatsappbetaupdater.util;
+package com.randarlabs.sigfree.util;
 
 import android.content.Context;
 import android.content.pm.PackageManager;
 
-import com.javiersantos.whatsappbetaupdater.BuildConfig;
-import com.javiersantos.whatsappbetaupdater.object.Version;
+import com.randarlabs.sigfree.BuildConfig;
+import com.randarlabs.sigfree.object.Version;
 
 public class UtilsWhatsApp {
 

@@ -1,4 +1,4 @@
-package com.javiersantos.whatsappbetaupdater.util;
+package com.randarlabs.sigfree.util;
 
 import android.app.Notification;
 import android.app.PendingIntent;
@@ -15,10 +15,10 @@ import android.widget.TextView;
 
 import com.afollestad.materialdialogs.DialogAction;
 import com.afollestad.materialdialogs.MaterialDialog;
-import com.javiersantos.whatsappbetaupdater.Config;
-import com.javiersantos.whatsappbetaupdater.R;
-import com.javiersantos.whatsappbetaupdater.WhatsAppBetaUpdaterApplication;
-import com.javiersantos.whatsappbetaupdater.activity.MainActivity;
+import com.randarlabs.sigfree.Config;
+import com.randarlabs.sigfree.R;
+import com.randarlabs.sigfree.UpdaterApplication;
+import com.randarlabs.sigfree.activity.MainActivity;
 import com.pnikosis.materialishprogress.ProgressWheel;
 
 import java.io.BufferedReader;
@@ -46,7 +46,7 @@ public class UtilsAsync {
             this.fab = fab;
             this.progressWheel = progressWheel;
             this.context = context;
-            this.appPreferences = WhatsAppBetaUpdaterApplication.getAppPreferences();
+            this.appPreferences = UpdaterApplication.getAppPreferences();
         }
 
         @Override
@@ -102,7 +102,7 @@ public class UtilsAsync {
 
         public NotifyWhatsAppVersion(Context context, Intent intent) {
             this.context = context;
-            this.appPreferences = WhatsAppBetaUpdaterApplication.getAppPreferences();
+            this.appPreferences = UpdaterApplication.getAppPreferences();
             this.intent = intent;
         }
 

@@ -5,7 +5,7 @@ android {
     buildToolsVersion '25.0.0'
 
     defaultConfig {
-        applicationId "com.javiersantos.whatsappbetaupdater"
+        applicationId "com.randarlabs.sigfree"
         minSdkVersion 15
         targetSdkVersion 22
         versionCode 23

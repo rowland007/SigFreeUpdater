@@ -1,4 +1,4 @@
-package com.javiersantos.whatsappbetaupdater.activity;
+package com.randarlabs.sigfree.activity;
 
 import android.content.Intent;
 import android.graphics.Color;
@@ -14,14 +14,14 @@ import android.view.MenuItem;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.javiersantos.whatsappbetaupdater.R;
-import com.javiersantos.whatsappbetaupdater.WhatsAppBetaUpdaterApplication;
-import com.javiersantos.whatsappbetaupdater.util.AppPreferences;
-import com.javiersantos.whatsappbetaupdater.util.UtilsApp;
-import com.javiersantos.whatsappbetaupdater.util.UtilsAsync;
-import com.javiersantos.whatsappbetaupdater.util.UtilsDialog;
-import com.javiersantos.whatsappbetaupdater.util.UtilsEnum;
-import com.javiersantos.whatsappbetaupdater.util.UtilsWhatsApp;
+import com.randarlabs.sigfree.R;
+import com.randarlabs.sigfree.UpdaterApplication;
+import com.randarlabs.sigfree.util.AppPreferences;
+import com.randarlabs.sigfree.util.UtilsApp;
+import com.randarlabs.sigfree.util.UtilsAsync;
+import com.randarlabs.sigfree.util.UtilsDialog;
+import com.randarlabs.sigfree.util.UtilsEnum;
+import com.randarlabs.sigfree.util.UtilsWhatsApp;
 import com.mikepenz.iconics.IconicsDrawable;
 import com.mikepenz.material_design_iconic_typeface_library.MaterialDesignIconic;
 import com.pnikosis.materialishprogress.ProgressWheel;
@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        this.appPreferences = WhatsAppBetaUpdaterApplication.getAppPreferences();
+        this.appPreferences = UpdaterApplication.getAppPreferences();
         this.fab = (FloatingActionButton) findViewById(R.id.fab);
         this.toolbar_subtitle = (TextView) findViewById(R.id.toolbar_subtitle);
         this.whatsapp_latest_version = (TextView) findViewById(R.id.whatsapp_latest_version);
