@@ -3,7 +3,9 @@ jdk: oraclejdk8
 
 android:
   components:
+    - build-tools-24.0.0
     - build-tools-25.0.0
+    - android-24
     - android-25
     - extra-android-support
     - extra-google-m2repository
@@ -13,6 +15,8 @@ android:
     
 before_script:
   - echo yes | android update sdk --no-ui --all --filter platform-tools,tools
+  - echo yes | android update sdk --no-ui --all --filter build-tools-24.0.0
+  - echo yes | android update sdk --no-ui --all --filter android-24
   - echo yes | android update sdk --no-ui --all --filter build-tools-25.0.0
   - echo yes | android update sdk --no-ui --all --filter android-25
 
