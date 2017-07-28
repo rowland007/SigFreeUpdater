@@ -209,7 +209,7 @@ public class UtilsAsync {
             // Configure type of download: WhatsApp update or Beta Updater update
             switch (downloadType) {
                 case WHATSAPP_APK:
-                    filename = "WhatsApp_" + version + ".apk";
+                    filename = "Signal_" + version + ".apk";
                     downloadUrl = Config.WHATSAPP_APK;
                     break;
                 case UPDATE:

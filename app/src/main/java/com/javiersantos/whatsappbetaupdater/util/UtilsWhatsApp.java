@@ -12,7 +12,7 @@ public class UtilsWhatsApp {
         String version = "";
 
         try {
-            version = context.getPackageManager().getPackageInfo("com.whatsapp", 0).versionName;
+            version = context.getPackageManager().getPackageInfo("org.thoughtcrime.securesms", 0).versionName;
         } catch (PackageManager.NameNotFoundException e) {
             e.printStackTrace();
         }
@@ -24,7 +24,7 @@ public class UtilsWhatsApp {
         Boolean res;
 
         try {
-            context.getPackageManager().getPackageInfo("com.whatsapp", 0);
+            context.getPackageManager().getPackageInfo("org.thoughtcrime.securesms", 0);
             res = true;
         } catch (PackageManager.NameNotFoundException e) {
             res = false;
