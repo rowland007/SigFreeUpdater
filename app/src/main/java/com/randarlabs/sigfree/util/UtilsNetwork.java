@@ -1,4 +1,4 @@
-package com.javiersantos.whatsappbetaupdater.util;
+package com.randarlabs.sigfree.util;
 
 import android.content.Context;
 import android.net.ConnectivityManager;

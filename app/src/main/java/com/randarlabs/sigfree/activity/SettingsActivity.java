@@ -1,4 +1,4 @@
-package com.javiersantos.whatsappbetaupdater.activity;
+package com.randarlabs.sigfree.activity;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -8,10 +8,10 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 
-import com.javiersantos.whatsappbetaupdater.R;
-import com.javiersantos.whatsappbetaupdater.WhatsAppBetaUpdaterApplication;
-import com.javiersantos.whatsappbetaupdater.util.AppPreferences;
-import com.javiersantos.whatsappbetaupdater.util.UtilsApp;
+import com.randarlabs.sigfree.R;
+import com.randarlabs.sigfree.UpdaterApplication;
+import com.randarlabs.sigfree.util.AppPreferences;
+import com.randarlabs.sigfree.util.UtilsApp;
 import com.lb.material_preferences_library.PreferenceActivity;
 import com.lb.material_preferences_library.custom_preferences.CheckBoxPreference;
 import com.lb.material_preferences_library.custom_preferences.ListPreference;
@@ -36,7 +36,7 @@ public class SettingsActivity extends PreferenceActivity implements SharedPrefer
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        this.appPreferences = WhatsAppBetaUpdaterApplication.getAppPreferences();
+        this.appPreferences = UpdaterApplication.getAppPreferences();
         this.sharedPreferences = PreferenceManager.getDefaultSharedPreferences(this);
 
         setPreferenceView();

@@ -1,4 +1,4 @@
-package com.javiersantos.whatsappbetaupdater.util;
+package com.randarlabs.sigfree.util;
 
 import android.app.AlarmManager;
 import android.app.PendingIntent;
@@ -7,9 +7,9 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.SystemClock;
 
-import com.javiersantos.whatsappbetaupdater.Config;
-import com.javiersantos.whatsappbetaupdater.R;
-import com.javiersantos.whatsappbetaupdater.receiver.NotificationReceiver;
+import com.randarlabs.sigfree.Config;
+import com.randarlabs.sigfree.R;
+import com.randarlabs.sigfree.receiver.NotificationReceiver;
 
 import java.util.Currency;
 import java.util.Locale;

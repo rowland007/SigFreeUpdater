@@ -1,4 +1,4 @@
-package com.javiersantos.whatsappbetaupdater.object;
+package com.randarlabs.sigfree.object;
 
 public class Version implements Comparable<Version> {
 

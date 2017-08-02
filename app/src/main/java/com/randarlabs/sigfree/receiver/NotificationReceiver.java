@@ -1,10 +1,10 @@
-package com.javiersantos.whatsappbetaupdater.receiver;
+package com.randarlabs.sigfree.receiver;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 
-import com.javiersantos.whatsappbetaupdater.util.UtilsAsync;
+import com.randarlabs.sigfree.util.UtilsAsync;
 
 public class NotificationReceiver extends BroadcastReceiver {
 

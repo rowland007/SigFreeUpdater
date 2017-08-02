@@ -1,4 +1,4 @@
-package com.javiersantos.whatsappbetaupdater.util;
+package com.randarlabs.sigfree.util;
 
 import android.app.Activity;
 import android.content.Context;
@@ -7,8 +7,8 @@ import android.view.View;
 
 import com.afollestad.materialdialogs.DialogAction;
 import com.afollestad.materialdialogs.MaterialDialog;
-import com.javiersantos.whatsappbetaupdater.R;
-import com.javiersantos.whatsappbetaupdater.WhatsAppBetaUpdaterApplication;
+import com.randarlabs.sigfree.R;
+import com.randarlabs.sigfree.UpdaterApplication;
 
 import java.io.File;
 
@@ -58,7 +58,7 @@ public class UtilsDialog {
     }
 
     public static MaterialDialog showUpdateAvailableDialog(final Context context, final String version) {
-        final AppPreferences appPreferences = WhatsAppBetaUpdaterApplication.getAppPreferences();
+        final AppPreferences appPreferences = UpdaterApplication.getAppPreferences();
 
         MaterialDialog dialog = new MaterialDialog.Builder(context)
                 .title(String.format(context.getResources().getString(R.string.app_update), version))

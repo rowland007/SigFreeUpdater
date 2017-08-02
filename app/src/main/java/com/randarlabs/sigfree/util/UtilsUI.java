@@ -1,10 +1,10 @@
-package com.javiersantos.whatsappbetaupdater.util;
+package com.randarlabs.sigfree.util;
 
 import android.support.design.widget.CoordinatorLayout;
 import android.support.design.widget.FloatingActionButton;
 import android.view.View;
 
-import com.javiersantos.whatsappbetaupdater.R;
+import com.randarlabs.sigfree.R;
 
 public class UtilsUI {
 

@@ -1,10 +1,10 @@
-package com.javiersantos.whatsappbetaupdater.util;
+package com.randarlabs.sigfree.util;
 
 import android.content.Context;
 import android.content.pm.PackageManager;
 
-import com.javiersantos.whatsappbetaupdater.BuildConfig;
-import com.javiersantos.whatsappbetaupdater.object.Version;
+import com.randarlabs.sigfree.BuildConfig;
+import com.randarlabs.sigfree.object.Version;
 
 public class UtilsWhatsApp {
 
@@ -12,7 +12,7 @@ public class UtilsWhatsApp {
         String version = "";
 
         try {
-            version = context.getPackageManager().getPackageInfo("com.whatsapp", 0).versionName;
+            version = context.getPackageManager().getPackageInfo("org.thoughtcrime.securesms", 0).versionName;
         } catch (PackageManager.NameNotFoundException e) {
             e.printStackTrace();
         }
@@ -24,7 +24,7 @@ public class UtilsWhatsApp {
         Boolean res;
 
         try {
-            context.getPackageManager().getPackageInfo("com.whatsapp", 0);
+            context.getPackageManager().getPackageInfo("org.thoughtcrime.securesms", 0);
             res = true;
         } catch (PackageManager.NameNotFoundException e) {
             res = false;
