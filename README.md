@@ -4,9 +4,20 @@
 
 <p align="center"><img src="https://raw.githubusercontent.com/rowland007/SigFreeUpdater/feature-readme/icon.png" width="100" height="100"></p>
 
-An app to update to the latest version of Signal Private Messenger for Android. SigFree Updater checks for the latest website distribution build available on [signal.org](https://signal.org/android/apk/) and enables you to install it automatically.
+~~An app to update to the latest version of Signal Private Messenger for Android. SigFree Updater checks for the latest website distribution build available on [signal.org](https://signal.org/android/apk/) and enables you to install it automatically.~~
 
-## Why use SigFree Updater?
+# Depreciated
+Links below to download official Signal Private Messenger APK. This repository became void when [CopperheadOS](https://copperhead.co/android/) created a [fork](https://github.com/copperhead/Noise) Signal called Noise. They then created an [F-Droid](https://f-droid.org/) repository that you can officially update roms to the latest version of Noise (aka Signal) for non-Google Play devices. 
+
+The CopperheadOS F-Droid repository for reference:
+```
+  - Repository URL: https://fdroid.copperhead.co/repo
+  - Repository fingerprint: F0D4EB1193AD82FEB224BD1174B6FBD89A39D8ED988C9FFF2ADD0DCD1C4E271B
+```
+**Note**: It’s only intended to be useful to CopperheadOS users. Nothing from there is guaranteed to work elsewhere and issues on other operating systems should not be reported.
+
+
+## ~~Why use SigFree Updater?~~
 Open Whisper Systems publishes updates on their website when they become available on Google Play. This means that roms that don't use Google Play services don't have access to the Google Play Store to be able to download the APK. When a user wants to have these updates, the regular method is downloading the `Signal-website-release-x.x.x.apk` file from the website and installing it manually. SigFree Updater does that automatically.
 
 ## Signal APK Download
